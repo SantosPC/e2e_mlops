@@ -1,6 +1,6 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.data_ingestion import DataIngestion
-from cnnClassifier import logger
+from SPCInference.config.configuration import ConfigurationManager
+from SPCInference.components.data_ingestion import DataIngestion
+from SPCInference import logger
 
 
 

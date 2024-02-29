@@ -1,6 +1,6 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.model_trainer import Training
-from cnnClassifier import logger
+from SPCInference.config.configuration import ConfigurationManager
+from SPCInference.components.model_trainer import Training
+from SPCInference import logger
 
 
 

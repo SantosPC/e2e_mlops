@@ -1,7 +1,7 @@
 import os
-from cnnClassifier.constants import *
-from cnnClassifier.utils.common import read_yaml, create_directories
-from cnnClassifier.entity.config_entity import (DataIngestionConfig,
+from SPCInference.constants import *
+from SPCInference.utils.common import read_yaml, create_directories
+from SPCInference.entity.config_entity import (DataIngestionConfig,
                                                 PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)

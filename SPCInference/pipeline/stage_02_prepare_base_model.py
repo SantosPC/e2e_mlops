@@ -1,6 +1,6 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.prepare_base_model import PrepareBaseModel
-from cnnClassifier import logger
+from SPCInference.config.configuration import ConfigurationManager
+from SPCInference.components.prepare_base_model import PrepareBaseModel
+from SPCInference import logger
 
 
 
