@@ -1,0 +1,1935 @@
+<VisioDocument xmlns='http://schemas.microsoft.com/visio/2003/core'>
+<Pages>
+<Page ID='1'>
+<PageSheet>
+<PageProps>
+<PageWidth>35.708332</PageWidth>
+<PageHeight>6.888889</PageHeight>
+</PageProps>
+</PageSheet>
+<Shapes><Shape ID='1' Type='Group'>
+<XForm>
+<PinX>3.631944</PinX>
+<PinY>1.770833</PinY>
+<Width>6.152778</Width>
+<Height>1.791667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>ConfigurationManager
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>params
+<pp IX='3'/><cp IX='3'/>get_data_ingestion_config(): DataIngestionConfig
+<pp IX='4'/><cp IX='4'/>get_evaluation_config(): EvaluationConfig
+<pp IX='5'/><cp IX='5'/>get_prepare_base_model_config(): PrepareBaseModelConfig
+<pp IX='6'/><cp IX='6'/>get_training_config(): TrainingConfig
+</Text><Shapes>
+<Shape ID='2' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.500000' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='3' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.821705' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='4' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.527132' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='5' Type='Group'>
+<XForm>
+<PinX>8.090278</PinX>
+<PinY>5.013889</PinY>
+<Width>2.125000</Width>
+<Height>1.166667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>DataIngestion
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>download_file(): str
+<pp IX='3'/><cp IX='3'/>extract_zip_file()
+</Text><Shapes>
+<Shape ID='6' Type='Shape'>
+<XForm>
+<PinX F='Sheet.5!Width*0.500000' />
+<PinY F='Sheet.5!Height*0.500000' />
+<Width F='Sheet.5!Width*1.000000' />
+<Height F='Sheet.5!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='7' Type='Shape'>
+<XForm>
+<PinX F='Sheet.5!Width*0.500000' />
+<PinY F='Sheet.5!Height*0.726190' />
+<Width F='Sheet.5!Width*1.000000' />
+<Height F='Sheet.5!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='8' Type='Shape'>
+<XForm>
+<PinX F='Sheet.5!Width*0.500000' />
+<PinY F='Sheet.5!Height*0.452381' />
+<Width F='Sheet.5!Width*1.000000' />
+<Height F='Sheet.5!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='9' Type='Group'>
+<XForm>
+<PinX>8.090278</PinX>
+<PinY>1.770833</PinY>
+<Width>2.263889</Width>
+<Height>1.583333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>DataIngestionConfig
+<pp IX='1'/><cp IX='1'/>local_data_file : Path
+<pp IX='2'/><cp IX='2'/>root_dir : Path
+<pp IX='3'/><cp IX='3'/>source_URL : str
+<pp IX='4'/><cp IX='4'/>unzip_dir : Path
+<pp IX='5'/><cp IX='5'/> 
+</Text><Shapes>
+<Shape ID='10' Type='Shape'>
+<XForm>
+<PinX F='Sheet.9!Width*0.500000' />
+<PinY F='Sheet.9!Height*0.500000' />
+<Width F='Sheet.9!Width*1.000000' />
+<Height F='Sheet.9!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='11' Type='Shape'>
+<XForm>
+<PinX F='Sheet.9!Width*0.500000' />
+<PinY F='Sheet.9!Height*0.798246' />
+<Width F='Sheet.9!Width*1.000000' />
+<Height F='Sheet.9!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='12' Type='Shape'>
+<XForm>
+<PinX F='Sheet.9!Width*0.500000' />
+<PinY F='Sheet.9!Height*0.201754' />
+<Width F='Sheet.9!Width*1.000000' />
+<Height F='Sheet.9!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='13' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(0.250000)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>8.090278</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.563051</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>8.090278</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.078432</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.9!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.300347</X>
+<Y>0.830004</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#00FF00</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.500000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*0.500000'/><Y F='Height*3.289033'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 0.500000, 1.000000, 0, 1, 0.500000, 2.303830, 0, 1, 0.500000, 3.289033, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='14' Type='Group'>
+<XForm>
+<PinX>11.104167</PinX>
+<PinY>1.770833</PinY>
+<Width>3.263889</Width>
+<Height>0.983333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>DataIngestionTrainingPipeline
+<pp IX='1'/><cp IX='1'/>main()
+</Text><Shapes>
+<Shape ID='15' Type='Shape'>
+<XForm>
+<PinX F='Sheet.14!Width*0.500000' />
+<PinY F='Sheet.14!Height*0.500000' />
+<Width F='Sheet.14!Width*1.000000' />
+<Height F='Sheet.14!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='16' Type='Shape'>
+<XForm>
+<PinX F='Sheet.14!Width*0.500000' />
+<PinY F='Sheet.14!Height*0.675141' />
+<Width F='Sheet.14!Width*1.000000' />
+<Height F='Sheet.14!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='17' Type='Shape'>
+<XForm>
+<PinX F='Sheet.14!Width*0.500000' />
+<PinY F='Sheet.14!Height*0.324859' />
+<Width F='Sheet.14!Width*1.000000' />
+<Height F='Sheet.14!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='18' Type='Group'>
+<XForm>
+<PinX>14.312500</PinX>
+<PinY>5.013889</PinY>
+<Width>4.069444</Width>
+<Height>2.208333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>Evaluation
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>model : NoneType
+<pp IX='3'/><cp IX='3'/>score
+<pp IX='4'/><cp IX='4'/>valid_generator : DirectoryIterator
+<pp IX='5'/><cp IX='5'/>evaluation()
+<pp IX='6'/><cp IX='6'/>load_model(path: Path): tf.keras.Model
+<pp IX='7'/><cp IX='7'/>log_into_mlflow()
+<pp IX='8'/><cp IX='8'/>save_score()
+</Text><Shapes>
+<Shape ID='19' Type='Shape'>
+<XForm>
+<PinX F='Sheet.18!Width*0.500000' />
+<PinY F='Sheet.18!Height*0.500000' />
+<Width F='Sheet.18!Width*1.000000' />
+<Height F='Sheet.18!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='20' Type='Shape'>
+<XForm>
+<PinX F='Sheet.18!Width*0.500000' />
+<PinY F='Sheet.18!Height*0.855346' />
+<Width F='Sheet.18!Width*1.000000' />
+<Height F='Sheet.18!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='21' Type='Shape'>
+<XForm>
+<PinX F='Sheet.18!Width*0.500000' />
+<PinY F='Sheet.18!Height*0.427673' />
+<Width F='Sheet.18!Width*1.000000' />
+<Height F='Sheet.18!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='22' Type='Group'>
+<XForm>
+<PinX>14.312500</PinX>
+<PinY>1.770833</PinY>
+<Width>2.652778</Width>
+<Height>2.000000</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>EvaluationConfig
+<pp IX='1'/><cp IX='1'/>all_params : dict
+<pp IX='2'/><cp IX='2'/>mlflow_uri : str
+<pp IX='3'/><cp IX='3'/>params_batch_size : int
+<pp IX='4'/><cp IX='4'/>params_image_size : list
+<pp IX='5'/><cp IX='5'/>path_of_model : Path
+<pp IX='6'/><cp IX='6'/>training_data : Path
+<pp IX='7'/><cp IX='7'/> 
+</Text><Shapes>
+<Shape ID='23' Type='Shape'>
+<XForm>
+<PinX F='Sheet.22!Width*0.500000' />
+<PinY F='Sheet.22!Height*0.500000' />
+<Width F='Sheet.22!Width*1.000000' />
+<Height F='Sheet.22!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='24' Type='Shape'>
+<XForm>
+<PinX F='Sheet.22!Width*0.500000' />
+<PinY F='Sheet.22!Height*0.840278' />
+<Width F='Sheet.22!Width*1.000000' />
+<Height F='Sheet.22!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='25' Type='Shape'>
+<XForm>
+<PinX F='Sheet.22!Width*0.500000' />
+<PinY F='Sheet.22!Height*0.159722' />
+<Width F='Sheet.22!Width*1.000000' />
+<Height F='Sheet.22!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='26' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(0.250000)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>14.312500</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.771262</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>14.312500</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.076391</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.22!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.18!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.300347</X>
+<Y>0.621793</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#00FF00</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.500000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*0.500000'/><Y F='Height*3.167948'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 0.500000, 1.000000, 0, 1, 0.500000, 2.115605, 0, 1, 0.500000, 3.167948, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='27' Type='Group'>
+<XForm>
+<PinX>16.937500</PinX>
+<PinY>1.770833</PinY>
+<Width>2.097222</Width>
+<Height>0.983333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>EvaluationPipeline
+<pp IX='1'/><cp IX='1'/>main()
+</Text><Shapes>
+<Shape ID='28' Type='Shape'>
+<XForm>
+<PinX F='Sheet.27!Width*0.500000' />
+<PinY F='Sheet.27!Height*0.500000' />
+<Width F='Sheet.27!Width*1.000000' />
+<Height F='Sheet.27!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='29' Type='Shape'>
+<XForm>
+<PinX F='Sheet.27!Width*0.500000' />
+<PinY F='Sheet.27!Height*0.675141' />
+<Width F='Sheet.27!Width*1.000000' />
+<Height F='Sheet.27!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='30' Type='Shape'>
+<XForm>
+<PinX F='Sheet.27!Width*0.500000' />
+<PinY F='Sheet.27!Height*0.324859' />
+<Width F='Sheet.27!Width*1.000000' />
+<Height F='Sheet.27!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='31' Type='Group'>
+<XForm>
+<PinX>19.479167</PinX>
+<PinY>1.770833</PinY>
+<Width>2.486111</Width>
+<Height>0.983333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>ModelTrainingPipeline
+<pp IX='1'/><cp IX='1'/>main()
+</Text><Shapes>
+<Shape ID='32' Type='Shape'>
+<XForm>
+<PinX F='Sheet.31!Width*0.500000' />
+<PinY F='Sheet.31!Height*0.500000' />
+<Width F='Sheet.31!Width*1.000000' />
+<Height F='Sheet.31!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='33' Type='Shape'>
+<XForm>
+<PinX F='Sheet.31!Width*0.500000' />
+<PinY F='Sheet.31!Height*0.675141' />
+<Width F='Sheet.31!Width*1.000000' />
+<Height F='Sheet.31!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='34' Type='Shape'>
+<XForm>
+<PinX F='Sheet.31!Width*0.500000' />
+<PinY F='Sheet.31!Height*0.324859' />
+<Width F='Sheet.31!Width*1.000000' />
+<Height F='Sheet.31!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='35' Type='Group'>
+<XForm>
+<PinX>22.006945</PinX>
+<PinY>1.770833</PinY>
+<Width>2.055556</Width>
+<Height>0.958333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>PredictionPipeline
+<pp IX='1'/><cp IX='1'/>filename
+<pp IX='2'/><cp IX='2'/>predict()
+</Text><Shapes>
+<Shape ID='36' Type='Shape'>
+<XForm>
+<PinX F='Sheet.35!Width*0.500000' />
+<PinY F='Sheet.35!Height*0.500000' />
+<Width F='Sheet.35!Width*1.000000' />
+<Height F='Sheet.35!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='37' Type='Shape'>
+<XForm>
+<PinX F='Sheet.35!Width*0.500000' />
+<PinY F='Sheet.35!Height*0.666667' />
+<Width F='Sheet.35!Width*1.000000' />
+<Height F='Sheet.35!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='38' Type='Shape'>
+<XForm>
+<PinX F='Sheet.35!Width*0.500000' />
+<PinY F='Sheet.35!Height*0.333333' />
+<Width F='Sheet.35!Width*1.000000' />
+<Height F='Sheet.35!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='39' Type='Group'>
+<XForm>
+<PinX>25.020834</PinX>
+<PinY>5.013889</PinY>
+<Width>4.819444</Width>
+<Height>1.791667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>PrepareBaseModel
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>full_model : Model
+<pp IX='3'/><cp IX='3'/>model : Model
+<pp IX='4'/><cp IX='4'/>get_base_model()
+<pp IX='5'/><cp IX='5'/>save_model(path: Path, model: tf.keras.Model)
+<pp IX='6'/><cp IX='6'/>update_base_model()
+</Text><Shapes>
+<Shape ID='40' Type='Shape'>
+<XForm>
+<PinX F='Sheet.39!Width*0.500000' />
+<PinY F='Sheet.39!Height*0.500000' />
+<Width F='Sheet.39!Width*1.000000' />
+<Height F='Sheet.39!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='41' Type='Shape'>
+<XForm>
+<PinX F='Sheet.39!Width*0.500000' />
+<PinY F='Sheet.39!Height*0.821705' />
+<Width F='Sheet.39!Width*1.000000' />
+<Height F='Sheet.39!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='42' Type='Shape'>
+<XForm>
+<PinX F='Sheet.39!Width*0.500000' />
+<PinY F='Sheet.39!Height*0.410853' />
+<Width F='Sheet.39!Width*1.000000' />
+<Height F='Sheet.39!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='43' Type='Group'>
+<XForm>
+<PinX>25.020834</PinX>
+<PinY>1.770833</PinY>
+<Width>3.472222</Width>
+<Height>2.416667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>PrepareBaseModelConfig
+<pp IX='1'/><cp IX='1'/>base_model_path : Path
+<pp IX='2'/><cp IX='2'/>params_classes : int
+<pp IX='3'/><cp IX='3'/>params_image_size : list
+<pp IX='4'/><cp IX='4'/>params_include_top : bool
+<pp IX='5'/><cp IX='5'/>params_learning_rate : float
+<pp IX='6'/><cp IX='6'/>params_weights : str
+<pp IX='7'/><cp IX='7'/>root_dir : Path
+<pp IX='8'/><cp IX='8'/>updated_base_model_path : Path
+<pp IX='9'/><cp IX='9'/> 
+</Text><Shapes>
+<Shape ID='44' Type='Shape'>
+<XForm>
+<PinX F='Sheet.43!Width*0.500000' />
+<PinY F='Sheet.43!Height*0.500000' />
+<Width F='Sheet.43!Width*1.000000' />
+<Height F='Sheet.43!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='45' Type='Shape'>
+<XForm>
+<PinX F='Sheet.43!Width*0.500000' />
+<PinY F='Sheet.43!Height*0.867816' />
+<Width F='Sheet.43!Width*1.000000' />
+<Height F='Sheet.43!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='46' Type='Shape'>
+<XForm>
+<PinX F='Sheet.43!Width*0.500000' />
+<PinY F='Sheet.43!Height*0.132184' />
+<Width F='Sheet.43!Width*1.000000' />
+<Height F='Sheet.43!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='47' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(0.250000)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>25.020834</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.981973</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>25.020834</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.298332</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.43!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.39!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.300347</X>
+<Y>0.411083</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#00FF00</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.500000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*0.500000'/><Y F='Height*3.046000'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 0.500000, 1.000000, 0, 1, 0.500000, 2.071826, 0, 1, 0.500000, 3.046000, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='48' Type='Group'>
+<XForm>
+<PinX>28.881945</PinX>
+<PinY>1.770833</PinY>
+<Width>3.750000</Width>
+<Height>0.983333</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>PrepareBaseModelTrainingPipeline
+<pp IX='1'/><cp IX='1'/>main()
+</Text><Shapes>
+<Shape ID='49' Type='Shape'>
+<XForm>
+<PinX F='Sheet.48!Width*0.500000' />
+<PinY F='Sheet.48!Height*0.500000' />
+<Width F='Sheet.48!Width*1.000000' />
+<Height F='Sheet.48!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='50' Type='Shape'>
+<XForm>
+<PinX F='Sheet.48!Width*0.500000' />
+<PinY F='Sheet.48!Height*0.675141' />
+<Width F='Sheet.48!Width*1.000000' />
+<Height F='Sheet.48!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='51' Type='Shape'>
+<XForm>
+<PinX F='Sheet.48!Width*0.500000' />
+<PinY F='Sheet.48!Height*0.324859' />
+<Width F='Sheet.48!Width*1.000000' />
+<Height F='Sheet.48!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='52' Type='Group'>
+<XForm>
+<PinX>32.743056</PinX>
+<PinY>5.013889</PinY>
+<Width>4.819444</Width>
+<Height>2.625000</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>Training
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>model : NoneType
+<pp IX='3'/><cp IX='3'/>steps_per_epoch
+<pp IX='4'/><cp IX='4'/>train_generator : DirectoryIterator
+<pp IX='5'/><cp IX='5'/>valid_generator : DirectoryIterator
+<pp IX='6'/><cp IX='6'/>validation_steps
+<pp IX='7'/><cp IX='7'/>get_base_model()
+<pp IX='8'/><cp IX='8'/>save_model(path: Path, model: tf.keras.Model)
+<pp IX='9'/><cp IX='9'/>train()
+<pp IX='10'/><cp IX='10'/>train_valid_generator()
+</Text><Shapes>
+<Shape ID='53' Type='Shape'>
+<XForm>
+<PinX F='Sheet.52!Width*0.500000' />
+<PinY F='Sheet.52!Height*0.500000' />
+<Width F='Sheet.52!Width*1.000000' />
+<Height F='Sheet.52!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='54' Type='Shape'>
+<XForm>
+<PinX F='Sheet.52!Width*0.500000' />
+<PinY F='Sheet.52!Height*0.878307' />
+<Width F='Sheet.52!Width*1.000000' />
+<Height F='Sheet.52!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='55' Type='Shape'>
+<XForm>
+<PinX F='Sheet.52!Width*0.500000' />
+<PinY F='Sheet.52!Height*0.359788' />
+<Width F='Sheet.52!Width*1.000000' />
+<Height F='Sheet.52!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='56' Type='Group'>
+<XForm>
+<PinX>32.743056</PinX>
+<PinY>1.770833</PinY>
+<Width>3.472222</Width>
+<Height>2.416667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>TrainingConfig
+<pp IX='1'/><cp IX='1'/>params_batch_size : int
+<pp IX='2'/><cp IX='2'/>params_epochs : int
+<pp IX='3'/><cp IX='3'/>params_image_size : list
+<pp IX='4'/><cp IX='4'/>params_is_augmentation : bool
+<pp IX='5'/><cp IX='5'/>root_dir : Path
+<pp IX='6'/><cp IX='6'/>trained_model_path : Path
+<pp IX='7'/><cp IX='7'/>training_data : Path
+<pp IX='8'/><cp IX='8'/>updated_base_model_path : Path
+<pp IX='9'/><cp IX='9'/> 
+</Text><Shapes>
+<Shape ID='57' Type='Shape'>
+<XForm>
+<PinX F='Sheet.56!Width*0.500000' />
+<PinY F='Sheet.56!Height*0.500000' />
+<Width F='Sheet.56!Width*1.000000' />
+<Height F='Sheet.56!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='58' Type='Shape'>
+<XForm>
+<PinX F='Sheet.56!Width*0.500000' />
+<PinY F='Sheet.56!Height*0.867816' />
+<Width F='Sheet.56!Width*1.000000' />
+<Height F='Sheet.56!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='59' Type='Shape'>
+<XForm>
+<PinX F='Sheet.56!Width*0.500000' />
+<PinY F='Sheet.56!Height*0.132184' />
+<Width F='Sheet.56!Width*1.000000' />
+<Height F='Sheet.56!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+<Shape ID='60' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(0.250000)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>32.743056</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.981973</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>32.743056</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.161048</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.56!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.52!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.300347</X>
+<Y>0.411083</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#00FF00</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.500000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*0.500000'/><Y F='Height*3.067668'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 0.500000, 1.000000, 0, 1, 0.500000, 2.040657, 0, 1, 0.500000, 3.067668, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+</Shapes>
+</Page>
+</Pages>
+</VisioDocument>

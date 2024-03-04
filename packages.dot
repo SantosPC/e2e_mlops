@@ -1,0 +1,46 @@
+digraph "packages" {
+rankdir=BT
+charset="utf-8"
+"SPCInference" [color="black", label=<SPCInference>, shape="box", style="solid"];
+"SPCInference.components" [color="black", label=<SPCInference.components>, shape="box", style="solid"];
+"SPCInference.components.data_ingestion" [color="black", label=<SPCInference.components.data_ingestion>, shape="box", style="solid"];
+"SPCInference.components.model_evaluation_mlflow" [color="black", label=<SPCInference.components.model_evaluation_mlflow>, shape="box", style="solid"];
+"SPCInference.components.model_trainer" [color="black", label=<SPCInference.components.model_trainer>, shape="box", style="solid"];
+"SPCInference.components.prepare_base_model" [color="black", label=<SPCInference.components.prepare_base_model>, shape="box", style="solid"];
+"SPCInference.config" [color="black", label=<SPCInference.config>, shape="box", style="solid"];
+"SPCInference.config.configuration" [color="black", label=<SPCInference.config.configuration>, shape="box", style="solid"];
+"SPCInference.constants" [color="black", label=<SPCInference.constants>, shape="box", style="solid"];
+"SPCInference.entity" [color="black", label=<SPCInference.entity>, shape="box", style="solid"];
+"SPCInference.entity.config_entity" [color="black", label=<SPCInference.entity.config_entity>, shape="box", style="solid"];
+"SPCInference.pipeline" [color="black", label=<SPCInference.pipeline>, shape="box", style="solid"];
+"SPCInference.pipeline.prediction" [color="black", label=<SPCInference.pipeline.prediction>, shape="box", style="solid"];
+"SPCInference.pipeline.stage_01_data_ingestion" [color="black", label=<SPCInference.pipeline.stage_01_data_ingestion>, shape="box", style="solid"];
+"SPCInference.pipeline.stage_02_prepare_base_model" [color="black", label=<SPCInference.pipeline.stage_02_prepare_base_model>, shape="box", style="solid"];
+"SPCInference.pipeline.stage_03_model_trainer" [color="black", label=<SPCInference.pipeline.stage_03_model_trainer>, shape="box", style="solid"];
+"SPCInference.pipeline.stage_04_model_evaluation" [color="black", label=<SPCInference.pipeline.stage_04_model_evaluation>, shape="box", style="solid"];
+"SPCInference.utils" [color="black", label=<SPCInference.utils>, shape="box", style="solid"];
+"SPCInference.utils.common" [color="black", label=<SPCInference.utils.common>, shape="box", style="solid"];
+"SPCInference.components.data_ingestion" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.data_ingestion" -> "SPCInference.entity.config_entity" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.data_ingestion" -> "SPCInference.utils.common" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.model_evaluation_mlflow" -> "SPCInference.entity.config_entity" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.model_evaluation_mlflow" -> "SPCInference.utils.common" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.model_trainer" -> "SPCInference.entity.config_entity" [arrowhead="open", arrowtail="none"];
+"SPCInference.components.prepare_base_model" -> "SPCInference.entity.config_entity" [arrowhead="open", arrowtail="none"];
+"SPCInference.config.configuration" -> "SPCInference.constants" [arrowhead="open", arrowtail="none"];
+"SPCInference.config.configuration" -> "SPCInference.entity.config_entity" [arrowhead="open", arrowtail="none"];
+"SPCInference.config.configuration" -> "SPCInference.utils.common" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_01_data_ingestion" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_01_data_ingestion" -> "SPCInference.components.data_ingestion" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_01_data_ingestion" -> "SPCInference.config.configuration" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_02_prepare_base_model" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_02_prepare_base_model" -> "SPCInference.components.prepare_base_model" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_02_prepare_base_model" -> "SPCInference.config.configuration" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_03_model_trainer" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_03_model_trainer" -> "SPCInference.components.model_trainer" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_03_model_trainer" -> "SPCInference.config.configuration" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_04_model_evaluation" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_04_model_evaluation" -> "SPCInference.components.model_evaluation_mlflow" [arrowhead="open", arrowtail="none"];
+"SPCInference.pipeline.stage_04_model_evaluation" -> "SPCInference.config.configuration" [arrowhead="open", arrowtail="none"];
+"SPCInference.utils.common" -> "SPCInference" [arrowhead="open", arrowtail="none"];
+}

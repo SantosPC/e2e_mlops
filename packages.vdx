@@ -1,0 +1,1898 @@
+<VisioDocument xmlns='http://schemas.microsoft.com/visio/2003/core'>
+<Pages>
+<Page ID='1'>
+<PageSheet>
+<PageProps>
+<PageWidth>43.333332</PageWidth>
+<PageHeight>4.611111</PageHeight>
+</PageProps>
+</PageSheet>
+<Shapes><Shape ID='1' Type='Shape'>
+<XForm>
+<PinX>4.868402</PinX>
+<PinY>3.805556</PinY>
+<Width>1.583333</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='2' Type='Shape'>
+<XForm>
+<PinX>27.562847</PinX>
+<PinY>0.805556</PinY>
+<Width>2.847222</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='3' Type='Shape'>
+<XForm>
+<PinX>3.632291</PinX>
+<PinY>1.805556</PinY>
+<Width>4.361111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.data_ingestion
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='4' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>3.781395</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.057341</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.995780</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.399392</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.3!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.417374</X>
+<Y>0.665923</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*4.019332'/><Y F='Height*4.019332'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.851822, 2.851822, 0, 1, 4.019332, 4.019332, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='5' Type='Shape'>
+<XForm>
+<PinX>11.840625</PinX>
+<PinY>2.805556</PinY>
+<Width>3.527778</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.entity.config_entity
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='6' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>5.629779</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>6.939274</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.211134</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.3!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>2.158225</X>
+<Y>0.255627</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.285738'/><Y F='Height*3.285738'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.299784, 2.299784, 0, 1, 3.285738, 3.285738, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='7' Type='Shape'>
+<XForm>
+<PinX>6.382291</PinX>
+<PinY>2.805556</PinY>
+<Width>2.986111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.utils.common
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='8' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>4.301501</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>4.685737</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.191875</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.3!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.7!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.629411</X>
+<Y>0.222519</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.316990'/><Y F='Height*3.316990'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.262558, 2.262558, 0, 1, 3.316990, 3.316990, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='9' Type='Shape'>
+<XForm>
+<PinX>8.757291</PinX>
+<PinY>1.805556</PinY>
+<Width>5.388889</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.model_evaluation_mlflow
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='10' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>9.507617</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>9.944047</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.193647</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.9!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.715355</X>
+<Y>0.225562</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.314906'/><Y F='Height*3.314906'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.265983, 2.265983, 0, 1, 3.314906, 3.314906, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='11' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>8.176301</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.057277</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>7.848738</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.191367</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.9!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.7!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.535778</X>
+<Y>0.219324</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.314371'/><Y F='Height*3.314371'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.256936, 2.256936, 0, 1, 3.314371, 3.314371, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='12' Type='Shape'>
+<XForm>
+<PinX>17.715625</PinX>
+<PinY>1.805556</PinY>
+<Width>4.291667</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.model_trainer
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='13' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>16.285951</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>15.417073</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.199819</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.12!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-1.427146</X>
+<Y>0.236171</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.306392'/><Y F='Height*3.306392'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.277914, 2.277914, 0, 1, 3.306392, 3.306392, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='14' Type='Shape'>
+<XForm>
+<PinX>23.104514</PinX>
+<PinY>1.805556</PinY>
+<Width>4.944444</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.prepare_base_model
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='15' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>20.629474</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.007857</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>18.212883</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.192725</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.14!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-3.963999</X>
+<Y>0.306802</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*2.847775'/><Y F='Height*2.957811'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.424947, 2.439603, 0, 1, 2.847775, 2.957811, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='16' Type='Shape'>
+<XForm>
+<PinX>30.354514</PinX>
+<PinY>0.805556</PinY>
+<Width>2.236111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='17' Type='Shape'>
+<XForm>
+<PinX>13.507291</PinX>
+<PinY>1.805556</PinY>
+<Width>3.611111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.config.configuration
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='18' Type='Shape'>
+<XForm>
+<PinX>15.160069</PinX>
+<PinY>2.805556</PinY>
+<Width>2.611111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.constants
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='19' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>13.911606</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.057277</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>14.127707</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.184395</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.18!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.352548</X>
+<Y>0.207381</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.320524'/><Y F='Height*3.320524'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.243577, 2.243577, 0, 1, 3.320524, 3.320524, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='20' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>13.099579</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.057277</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>12.881662</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.184395</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.5!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.355511</X>
+<Y>0.207381</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.320524'/><Y F='Height*3.320524'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.243577, 2.243577, 0, 1, 3.320524, 3.320524, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='21' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>11.773431</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>10.629841</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>2.212079</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.7!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-1.885288</X>
+<Y>0.257252</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.283718'/><Y F='Height*3.283718'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.301610, 2.301610, 0, 1, 3.283718, 3.283718, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='22' Type='Shape'>
+<XForm>
+<PinX>32.840625</PinX>
+<PinY>0.805556</PinY>
+<Width>2.236111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.entity
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='23' Type='Shape'>
+<XForm>
+<PinX>35.437847</PinX>
+<PinY>0.805556</PinY>
+<Width>2.444444</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='24' Type='Shape'>
+<XForm>
+<PinX>38.673958</PinX>
+<PinY>0.805556</PinY>
+<Width>3.513889</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline.prediction
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='25' Type='Shape'>
+<XForm>
+<PinX>3.535069</PinX>
+<PinY>0.805556</PinY>
+<Width>4.930556</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline.stage_01_data_ingestion
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='26' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>2.093079</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.056275</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.552661</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.176915</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.25!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-1.536100</X>
+<Y>1.256082</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*-3.410481'/><Y F='Height*22.359349'/><A>6</A><B>1</B><C>0</C><D>1</D><E F='NURBS(7, 3, 0, 0, 1.000000, 1.000000, 0, 1, 1.967376, 2.380619, 0, 1, 2.266163, 4.138582, 0, 1, 3.013446, 8.535344, 1, 1, 3.055584, 12.325794, 2, 1, 2.266163, 16.572220, 3, 1, 1.557991, 20.381596, 4, 1, -1.453762, 21.821249, 5, 1, -3.410481, 22.359349, 6, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='27' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>3.559102</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.059769</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.569815</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.166907</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.25!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.3!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.017305</X>
+<Y>0.173053</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.316631'/><Y F='Height*3.316631'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.201758, 2.201758, 0, 1, 3.316631, 3.316631, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='28' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>6.004462</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.044587</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>8.104108</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.236143</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.25!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>3.306384</X>
+<Y>0.302227</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*2.644664'/><Y F='Height*2.663529'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.317735, 2.319495, 0, 1, 2.644664, 2.663529, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='29' Type='Shape'>
+<XForm>
+<PinX>23.132291</PinX>
+<PinY>0.805556</PinY>
+<Width>5.513889</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline.stage_02_prepare_base_model
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='30' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>24.633170</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.056027</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>25.419426</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.243398</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.29!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>1.068566</X>
+<Y>0.999529</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*-23.942195'/><Y F='Height*14.581228'/><A>3</A><B>1</B><C>0</C><D>1</D><E F='NURBS(4, 3, 0, 0, 1.000000, 1.000000, 0, 1, 1.912485, 2.680006, 0, 1, 1.359055, 5.334499, 0, 1, -0.327064, 13.421863, 1, 1, -18.997673, 14.450649, 2, 1, -23.942195, 14.581228, 3, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='31' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>23.125425</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.059769</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>23.122364</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.166907</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.29!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.14!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.004944</X>
+<Y>0.173053</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.316631'/><Y F='Height*3.316631'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.201758, 2.201758, 0, 1, 3.316631, 3.316631, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='32' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>20.491276</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.055946</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>19.009022</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.192851</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.29!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-5.039541</X>
+<Y>0.499610</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.402804'/><Y F='Height*3.652721'/><A>3</A><B>1</B><C>0</C><D>1</D><E F='NURBS(4, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.270135, 2.320716, 0, 1, 3.399916, 3.649324, 0, 1, 3.400878, 3.650456, 1, 1, 3.401841, 3.651588, 2, 1, 3.402804, 3.652721, 3, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='33' Type='Shape'>
+<XForm>
+<PinX>17.687847</PinX>
+<PinY>0.805556</PinY>
+<Width>4.861111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline.stage_03_model_trainer
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='34' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>18.984517</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.055754</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>19.694622</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.245426</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.33!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.464531</X>
+<Y>1.870559</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*-18.559007'/><Y F='Height*14.485884'/><A>6</A><B>1</B><C>0</C><D>1</D><E F='NURBS(7, 3, 0, 0, 1.000000, 1.000000, 0, 1, 1.940029, 2.673595, 0, 1, 1.420755, 5.271217, 0, 1, 0.090677, 11.924821, 1, 1, -1.184993, 9.102481, 2, 1, -3.371181, 10.543478, 3, 1, -8.954769, 14.223825, 4, 1, -15.744586, 14.535772, 5, 1, -18.559007, 14.485884, 6, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='35' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>17.694713</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.059769</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>17.697775</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.166907</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.33!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.12!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>0.004944</X>
+<Y>0.173053</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.316631'/><Y F='Height*3.316631'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.201758, 2.201758, 0, 1, 3.316631, 3.316631, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='36' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>16.670514</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>16.063684</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.197157</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.33!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.995853</X>
+<Y>0.231594</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.310303'/><Y F='Height*3.310303'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.272767, 2.272767, 0, 1, 3.310303, 3.310303, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='37' Type='Shape'>
+<XForm>
+<PinX>8.854514</PinX>
+<PinY>0.805556</PinY>
+<Width>5.208333</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.pipeline.stage_04_model_evaluation
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='38' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>6.247134</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.054127</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>4.089110</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.251455</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.37!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-4.920398</X>
+<Y>0.501429</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*1.071257'/><Y F='Height*12.833415'/><A>3</A><B>1</B><C>0</C><D>1</D><E F='NURBS(4, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.260359, 2.303680, 0, 1, 2.280049, 2.541089, 0, 1, 2.692731, 7.517115, 1, 1, 1.685448, 11.152577, 2, 1, 1.071257, 12.833415, 3, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='39' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>8.830481</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.059769</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>8.819767</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.166907</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.37!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.9!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.017305</X>
+<Y>0.173053</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.316631'/><Y F='Height*3.316631'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.201758, 2.201758, 0, 1, 3.316631, 3.316631, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='40' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>9.986761</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>1.056034</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>10.666384</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>1.198044</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.37!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.17!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>1.115642</X>
+<Y>0.233119</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.309039'/><Y F='Height*3.309039'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.274483, 2.274483, 0, 1, 3.309039, 3.309039, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+<Shape ID='41' Type='Shape'>
+<XForm>
+<PinX>41.729514</PinX>
+<PinY>0.805556</PinY>
+<Width>2.083333</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.utils
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='42' Type='Shape'>
+<XForm>
+<PinX F='GUARD((BeginX+EndX)/2)'/>
+<PinY F='GUARD((BeginY+EndY)/2)'/>
+<Width F='GUARD(EndX-BeginX)'/>
+<Height F='GUARD(EndY-BeginY)'/>
+<Angle F='GUARD(0DA)'/>
+</XForm>
+<XForm1D>
+<BeginX F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>6.011952</BeginX>
+<BeginY F='_WALKGLUE(BegTrigger,EndTrigger,WalkPreference)'>3.057277</BeginY>
+<EndX F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>5.815844</EndX>
+<EndY F='_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)'>3.183218</EndY>
+</XForm1D>
+<Protection>
+<LockHeight>1</LockHeight>
+<LockCalcWH>1</LockCalcWH>
+</Protection>
+<Misc>
+<NoAlignBox>1</NoAlignBox>
+<DynFeedback>2</DynFeedback>
+<GlueType>2</GlueType>
+<BegTrigger F='_XFTRIGGER(Sheet.7!EventXFMod)'/>
+<EndTrigger F='_XFTRIGGER(Sheet.1!EventXFMod)'/>
+<ObjType>2</ObjType>
+</Misc>
+<Layout>
+<ShapeRouteStyle>1</ShapeRouteStyle>
+<ConFixedCode>6</ConFixedCode>
+<ConLineRouteExt>2</ConLineRouteExt>
+<ShapeSplittable>1</ShapeSplittable>
+</Layout>
+<TextXForm>
+<TxtPinX F='SETATREF(Controls.TextPosition)'/>
+<TxtPinY F='SETATREF(Controls.TextPosition.Y)'/>
+<TxtWidth F='MAX(TEXTWIDTH(TheText),5*Char.Size)'/>
+<TxtHeight F='TEXTHEIGHT(TheText,TxtWidth)'/>
+</TextXForm>
+<Control NameU='TextPosition'>
+<X>-0.319786</X>
+<Y>0.205367</Y>
+<XDyn F='Controls.TextPosition'/>
+<YDyn F='Controls.TextPosition.Y'/>
+<XCon F='IF(OR(STRSAME(SHAPETEXT(TheText),&quot;&quot;),HideText),5,0)'>5</XCon>
+<YCon>0</YCon>
+</Control>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+<EndArrow>2</EndArrow>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*-0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<NURBSTo><X F='Width*3.321319'/><Y F='Height*3.321319'/><A>0</A><B>1</B><C>0</C><D>1</D><E F='NURBS(1, 3, 0, 0, 1.000000, 1.000000, 0, 1, 2.241322, 2.241322, 0, 1, 3.321319, 3.321319, 0, 1)'/></NURBSTo>
+</Geom>
+</Shape>
+</Shapes>
+</Page>
+</Pages>
+</VisioDocument>
