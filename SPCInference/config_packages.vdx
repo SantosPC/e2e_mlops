@@ -1,0 +1,71 @@
+<VisioDocument xmlns='http://schemas.microsoft.com/visio/2003/core'>
+<Pages>
+<Page ID='1'>
+<PageSheet>
+<PageProps>
+<PageWidth>7.222222</PageWidth>
+<PageHeight>1.611111</PageHeight>
+</PageProps>
+</PageSheet>
+<Shapes><Shape ID='1' Type='Shape'>
+<XForm>
+<PinX>1.673611</PinX>
+<PinY>0.805556</PinY>
+<Width>2.236111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.config
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='2' Type='Shape'>
+<XForm>
+<PinX>4.854167</PinX>
+<PinY>0.805556</PinY>
+<Width>3.611111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.config.configuration
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Page>
+</Pages>
+</VisioDocument>

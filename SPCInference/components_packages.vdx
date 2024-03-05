@@ -1,0 +1,158 @@
+<VisioDocument xmlns='http://schemas.microsoft.com/visio/2003/core'>
+<Pages>
+<Page ID='1'>
+<PageSheet>
+<PageProps>
+<PageWidth>23.944445</PageWidth>
+<PageHeight>1.611111</PageHeight>
+</PageProps>
+</PageSheet>
+<Shapes><Shape ID='1' Type='Shape'>
+<XForm>
+<PinX>1.979167</PinX>
+<PinY>0.805556</PinY>
+<Width>2.847222</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='2' Type='Shape'>
+<XForm>
+<PinX>5.840278</PinX>
+<PinY>0.805556</PinY>
+<Width>4.361111</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.data_ingestion
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='3' Type='Shape'>
+<XForm>
+<PinX>10.965278</PinX>
+<PinY>0.805556</PinY>
+<Width>5.388889</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.model_evaluation_mlflow
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='4' Type='Shape'>
+<XForm>
+<PinX>16.048611</PinX>
+<PinY>0.805556</PinY>
+<Width>4.291667</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.model_trainer
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='5' Type='Shape'>
+<XForm>
+<PinX>20.909722</PinX>
+<PinY>0.805556</PinY>
+<Width>4.944444</Width>
+<Height>0.500000</Height>
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Para>
+<HorzAlign>1</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>SPCInference.components.prepare_base_model
+</Text><Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*1.000000' /><Y F='Height*1.000000' /></MoveTo>
+<PolylineTo><X F='Width*1.000000' /><Y F='Height*1.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 0.000000, 0.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Page>
+</Pages>
+</VisioDocument>

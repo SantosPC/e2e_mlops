@@ -1,0 +1,140 @@
+<VisioDocument xmlns='http://schemas.microsoft.com/visio/2003/core'>
+<Pages>
+<Page ID='1'>
+<PageSheet>
+<PageProps>
+<PageWidth>7.263889</PageWidth>
+<PageHeight>2.916667</PageHeight>
+</PageProps>
+</PageSheet>
+<Shapes><Shape ID='1' Type='Group'>
+<XForm>
+<PinX>3.631944</PinX>
+<PinY>1.458333</PinY>
+<Width>6.152778</Width>
+<Height>1.791667</Height>
+</XForm>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Para>
+<HorzAlign>0</HorzAlign>
+</Para>
+<Char>
+<Color>#000000</Color>
+<Size>0.194444</Size>
+</Char>
+<Text><pp IX='0'/><cp IX='0'/>ConfigurationManager
+<pp IX='1'/><cp IX='1'/>config
+<pp IX='2'/><cp IX='2'/>params
+<pp IX='3'/><cp IX='3'/>get_data_ingestion_config(): DataIngestionConfig
+<pp IX='4'/><cp IX='4'/>get_evaluation_config(): EvaluationConfig
+<pp IX='5'/><cp IX='5'/>get_prepare_base_model_config(): PrepareBaseModelConfig
+<pp IX='6'/><cp IX='6'/>get_training_config(): TrainingConfig
+</Text><Shapes>
+<Shape ID='2' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.500000' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*1.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<NoFill>1</NoFill>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<PolylineTo><X F='Width*0.000000' /><Y F='Height*0.000000' /><A F='POLYLINE(0, 0, 0.000000, 1.000000, 1.000000, 1.000000, 1.000000, 0.000000)' /></PolylineTo>
+</Geom>
+</Shape>
+<Shape ID='3' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.821705' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+<Shape ID='4' Type='Shape'>
+<XForm>
+<PinX F='Sheet.1!Width*0.500000' />
+<PinY F='Sheet.1!Height*0.527132' />
+<Width F='Sheet.1!Width*1.000000' />
+<Height F='Sheet.1!Height*0.000000' />
+</XForm>
+<Misc>
+<ObjType>1</ObjType>
+</Misc>
+<Line>
+<LineWeight>0.013889</LineWeight>
+<LineColor>#000000</LineColor>
+<LinePattern>1</LinePattern>
+</Line>
+<Geom>
+<MoveTo><X F='Width*0.000000' /><Y F='Height*0.000000' /></MoveTo>
+<LineTo><X F='Width*1.000000' /><Y F='Height*0.000000' /></LineTo>
+</Geom>
+</Shape>
+</Shapes>
+</Shape>
+</Shapes>
+</Page>
+</Pages>
+</VisioDocument>
