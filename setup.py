@@ -9,7 +9,7 @@ __version__ = "0.0.0"
 REPO_NAME = "Ejemplo-e2e-mlops-project"
 AUTHOR_USER_NAME = "SantosPC"
 SRC_REPO = "SPCInference"
-AUTHOR_EMAIL = "santos.pascualcortes@gmail.com
+AUTHOR_EMAIL = "santos.pascualcortes@gmail.com"
 
 
 setuptools.setup(
